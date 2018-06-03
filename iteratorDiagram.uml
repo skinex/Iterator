@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="0.0">Model.Account</node>
+    <node x="267.0" y="44.0">Iterator.Cursor</node>
+    <node x="161.75" y="235.0">Iterator.Table</node>
+    <node x="206.75" y="404.0">Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Iterator.Table" target="Model.Account">
+      <point x="-21.375" y="-59.5" />
+      <point x="225.875" y="205.0" />
+      <point x="185.25" y="205.0" />
+      <point x="61.75" y="92.5" />
+    </edge>
+    <edge source="Client" target="Iterator.Table">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="Iterator.Cursor" target="Iterator.Table">
+      <point x="42.25" y="48.5" />
+      <point x="393.75" y="215.0" />
+      <point x="311.375" y="215.0" />
+      <point x="64.125" y="-59.5" />
+    </edge>
+    <edge source="Iterator.Table" target="Iterator.Cursor">
+      <point x="21.375" y="-59.5" />
+      <point x="268.625" y="205.0" />
+      <point x="309.25" y="205.0" />
+      <point x="-42.25" y="48.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7973568281938326" x="218.0" y="217.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
